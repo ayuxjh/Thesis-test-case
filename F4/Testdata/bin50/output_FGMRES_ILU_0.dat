@@ -1,0 +1,30 @@
+AMGX version 2.0.0.130-opensource
+Built on Jan  6 2020, 15:32:23
+Compiled with CUDA Runtime 9.2, using CUDA driver 10.1
+Warning: No mode specified, using dDDI by default.
+bsize is 5
+row_ptr read 1220883 rows
+col_ind read 11766653 cols
+value read 11766653 values
+RHS read 6104415
+~~~~~~~~~~~~~~~~~~get color level 1 m_sparsity_level 0 color 32~~~~~~~~~~~~~~~~~~~~~~~
+           iter      Mem Usage (GB)       residual           rate
+         --------------------------------------------------------------
+            Ini                   0   4.367799e+04
+              0             6.69189   6.708372e+03         0.1536
+              1              6.7935   9.504543e+02         0.1417
+              2              6.8950   1.779406e+02         0.1872
+              3              6.9966   4.148272e+01         0.2331
+              4              7.0981   1.099889e+01         0.2651
+              5              7.1997   3.136216e+00         0.2851
+         --------------------------------------------------------------
+         Total Iterations: 6
+         Avg Convergence Rate: 		         0.2039
+         Final Residual: 		   3.136216e+00
+         Total Reduction in Residual: 	   7.180312e-05
+         Maximum Memory Usage: 		          7.200 GB
+         --------------------------------------------------------------
+Total Time: 0.245005
+    setup: 0.0807926 s
+    solve: 0.164212 s
+    solve(per iteration): 0.0273687 s
