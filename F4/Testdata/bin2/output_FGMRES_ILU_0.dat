@@ -1,5 +1,5 @@
 AMGX version 2.0.0.130-opensource
-Built on Jan  6 2020, 15:32:23
+Built on Jan  9 2020, 18:30:01
 Compiled with CUDA Runtime 9.2, using CUDA driver 10.1
 Warning: No mode specified, using dDDI by default.
 bsize is 5
@@ -8,25 +8,34 @@ col_ind read 11766653 cols
 value read 11766653 values
 RHS read 6104415
 ~~~~~~~~~~~~~~~~~~get color level 1 m_sparsity_level 0 color 32~~~~~~~~~~~~~~~~~~~~~~~
+computeLUFactors Time:0.051121
            iter      Mem Usage (GB)       residual           rate
          --------------------------------------------------------------
             Ini                   0   2.705056e+04
-              0             6.69189   7.795556e+03         0.2882
-              1              6.7935   2.266071e+03         0.2907
-              2              6.8950   6.770138e+02         0.2988
-              3              6.9966   2.109253e+02         0.3116
-              4              7.0981   6.666222e+01         0.3160
-              5              7.1997   2.123565e+01         0.3186
-              6              7.3013   6.546451e+00         0.3083
-              7              7.4028   1.960141e+00         0.2994
+Smoother Time:0.000444
+              0             6.71143   7.795556e+03         0.2882
+Smoother Time:0.000903
+              1              6.8130   2.266071e+03         0.2907
+Smoother Time:0.001259
+              2              6.9146   6.770138e+02         0.2988
+Smoother Time:0.001615
+              3              7.0161   2.109253e+02         0.3116
+Smoother Time:0.002061
+              4              7.1177   6.666222e+01         0.3160
+Smoother Time:0.00251
+              5              7.2192   2.123565e+01         0.3186
+Smoother Time:0.002967
+              6              7.3208   6.546451e+00         0.3083
+Smoother Time:0.003412
+              7              7.4224   1.960141e+00         0.2994
          --------------------------------------------------------------
          Total Iterations: 8
          Avg Convergence Rate: 		         0.3037
          Final Residual: 		   1.960141e+00
          Total Reduction in Residual: 	   7.246213e-05
-         Maximum Memory Usage: 		          7.403 GB
+         Maximum Memory Usage: 		          7.422 GB
          --------------------------------------------------------------
-Total Time: 0.315023
-    setup: 0.0944845 s
-    solve: 0.220539 s
-    solve(per iteration): 0.0275674 s
+Total Time: 0.321783
+    setup: 0.093567 s
+    solve: 0.228216 s
+    solve(per iteration): 0.028527 s

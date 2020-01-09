@@ -1,0 +1,26 @@
+|          43|   -3.994366|   -8.468730|    0.177784|    0.154883|
+preconditon Time:4.58556
+
+# FGMRES residual history
+# Residual tolerance target = 0.0001
+# Initial residual norm     = 34843.3
+     0     1
+Smoother Time:0.676433
+Smoother Time:1.34735
+Smoother Time:2.01973
+Smoother Time:2.69271
+# FGMRES final (true) residual:
+# Iteration = 4: |res|/|res0| = 5.08078e-05.
+
+FGMRES Solver Time:5.02179
+Total Time:9.60742
+preconditon Time:0.631851
+
+# FGMRES residual history
+# Residual tolerance target = 0.0001
+# Initial residual norm     = 3.91962e-06
+     0     1
+# FGMRES final (true) residual:
+# Iteration = 3: |res|/|res0| = 1.40863e-05.
+
+FGMRES Solver Time:0.440731

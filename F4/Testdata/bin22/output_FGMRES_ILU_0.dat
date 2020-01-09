@@ -1,5 +1,5 @@
 AMGX version 2.0.0.130-opensource
-Built on Jan  6 2020, 15:32:23
+Built on Jan  9 2020, 18:30:01
 Compiled with CUDA Runtime 9.2, using CUDA driver 10.1
 Warning: No mode specified, using dDDI by default.
 bsize is 5
@@ -8,24 +8,32 @@ col_ind read 11766653 cols
 value read 11766653 values
 RHS read 6104415
 ~~~~~~~~~~~~~~~~~~get color level 1 m_sparsity_level 0 color 32~~~~~~~~~~~~~~~~~~~~~~~
+computeLUFactors Time:0.051065
            iter      Mem Usage (GB)       residual           rate
          --------------------------------------------------------------
             Ini                   0   1.628516e+04
-              0             6.69189   4.019535e+03         0.2468
-              1              6.7935   5.995662e+02         0.1492
-              2              6.8950   1.152870e+02         0.1923
-              3              6.9966   2.512096e+01         0.2179
-              4              7.0981   6.308339e+00         0.2511
-              5              7.1997   1.837942e+00         0.2914
-              6              7.3013   5.746330e-01         0.3127
+Smoother Time:0.000361
+              0             6.71143   4.019535e+03         0.2468
+Smoother Time:0.000807
+              1              6.8130   5.995662e+02         0.1492
+Smoother Time:0.001171
+              2              6.9146   1.152870e+02         0.1923
+Smoother Time:0.001617
+              3              7.0161   2.512096e+01         0.2179
+Smoother Time:0.002056
+              4              7.1177   6.308339e+00         0.2511
+Smoother Time:0.0025
+              5              7.2192   1.837942e+00         0.2914
+Smoother Time:0.002942
+              6              7.3208   5.746330e-01         0.3127
          --------------------------------------------------------------
          Total Iterations: 7
          Avg Convergence Rate: 		         0.2312
          Final Residual: 		   5.746330e-01
          Total Reduction in Residual: 	   3.528568e-05
-         Maximum Memory Usage: 		          7.301 GB
+         Maximum Memory Usage: 		          7.321 GB
          --------------------------------------------------------------
-Total Time: 0.282389
-    setup: 0.0849418 s
-    solve: 0.197448 s
-    solve(per iteration): 0.0282068 s
+Total Time: 0.278585
+    setup: 0.0837048 s
+    solve: 0.19488 s
+    solve(per iteration): 0.0278401 s

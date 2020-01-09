@@ -1,5 +1,5 @@
 AMGX version 2.0.0.130-opensource
-Built on Jan  6 2020, 15:32:23
+Built on Jan  9 2020, 18:30:01
 Compiled with CUDA Runtime 9.2, using CUDA driver 10.1
 Warning: No mode specified, using dDDI by default.
 bsize is 5
@@ -8,23 +8,30 @@ col_ind read 11766653 cols
 value read 11766653 values
 RHS read 6104415
 ~~~~~~~~~~~~~~~~~~get color level 1 m_sparsity_level 0 color 32~~~~~~~~~~~~~~~~~~~~~~~
+computeLUFactors Time:0.051108
            iter      Mem Usage (GB)       residual           rate
          --------------------------------------------------------------
             Ini                   0   2.588700e+04
-              0             6.69189   4.556733e+03         0.1760
-              1              6.7935   6.535322e+02         0.1434
-              2              6.8950   1.324976e+02         0.2027
-              3              6.9966   3.247108e+01         0.2451
-              4              7.0981   8.711212e+00         0.2683
-              5              7.1997   2.515730e+00         0.2888
+Smoother Time:0.000368
+              0             6.71143   4.556733e+03         0.1760
+Smoother Time:0.000719
+              1              6.8130   6.535322e+02         0.1434
+Smoother Time:0.00107
+              2              6.9146   1.324976e+02         0.2027
+Smoother Time:0.00142
+              3              7.0161   3.247108e+01         0.2451
+Smoother Time:0.001766
+              4              7.1177   8.711212e+00         0.2683
+Smoother Time:0.002109
+              5              7.2192   2.515730e+00         0.2888
          --------------------------------------------------------------
          Total Iterations: 6
          Avg Convergence Rate: 		         0.2144
          Final Residual: 		   2.515730e+00
          Total Reduction in Residual: 	   9.718121e-05
-         Maximum Memory Usage: 		          7.200 GB
+         Maximum Memory Usage: 		          7.219 GB
          --------------------------------------------------------------
-Total Time: 0.255287
-    setup: 0.0902185 s
-    solve: 0.165069 s
-    solve(per iteration): 0.0275114 s
+Total Time: 0.250921
+    setup: 0.0862341 s
+    solve: 0.164686 s
+    solve(per iteration): 0.0274477 s
