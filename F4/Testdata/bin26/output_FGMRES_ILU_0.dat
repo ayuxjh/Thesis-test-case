@@ -8,23 +8,23 @@ col_ind read 11766653 cols
 value read 11766653 values
 RHS read 6104415
 ~~~~~~~~~~~~~~~~~~get color level 1 m_sparsity_level 0 color 32~~~~~~~~~~~~~~~~~~~~~~~
-computeLUFactors Time:0.051052
+computeLUFactors Time:0.0395957
            iter      Mem Usage (GB)       residual           rate
          --------------------------------------------------------------
             Ini                   0   1.873445e+04
-Smoother Time:0.000365
+Smoother used 0.0164351
               0             6.71143   4.155795e+03         0.2218
-Smoother Time:0.000714
+Smoother used 0.0328611
               1              6.8130   6.109378e+02         0.1470
-Smoother Time:0.001059
+Smoother used 0.0492932
               2              6.9146   1.143916e+02         0.1872
-Smoother Time:0.001407
+Smoother used 0.0657346
               3              7.0161   2.623094e+01         0.2293
-Smoother Time:0.001754
+Smoother used 0.0821677
               4              7.1177   6.918305e+00         0.2637
-Smoother Time:0.002102
+Smoother used 0.0986101
               5              7.2192   1.991674e+00         0.2879
-Smoother Time:0.002449
+Smoother used 0.115045
               6              7.3208   6.143285e-01         0.3084
          --------------------------------------------------------------
          Total Iterations: 7
@@ -33,7 +33,7 @@ Smoother Time:0.002449
          Total Reduction in Residual: 	   3.279139e-05
          Maximum Memory Usage: 		          7.321 GB
          --------------------------------------------------------------
-Total Time: 0.278165
-    setup: 0.0895478 s
-    solve: 0.188617 s
-    solve(per iteration): 0.0269453 s
+Total Time: 0.281438
+    setup: 0.0907172 s
+    solve: 0.190721 s
+    solve(per iteration): 0.0272458 s
