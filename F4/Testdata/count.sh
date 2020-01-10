@@ -11,5 +11,6 @@ do
 	grep '    solve: '   output_FGMRES_ILU_0.dat| tee -a ../count_FGMRES.dat
 	grep 'Smoother used ' output_FGMRES_ILU_0.dat  | tail -1 | tee -a ../count_Smoother.dat
         grep 'Smoother used ' output_FGMRES_ILU_0.dat  -c | tee -a ../count_number.dat
- 	cd ../
+	grep 'Maximum Memory Usage: 	'    output_FGMRES_ILU_0.dat| tee -a ../count_Memory.dat
+	cd ../
 done
